@@ -2236,6 +2236,11 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 }
 
 @media print {
+
+    body{
+        -webkit-print-color-adjust: exact;
+    }
+
 	code[class*="language-"],
 	pre[class*="language-"] {
 		text-shadow: none;
