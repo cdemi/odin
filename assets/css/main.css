@@ -2240,6 +2240,26 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 	pre[class*="language-"] {
 		text-shadow: none;
 	}
+
+    .main-header {
+        display: none;
+    }
+
+    .social-share {
+        display: none;
+    }
+
+    .post-footer{
+        display: none;
+    }
+
+    .read-next{
+        display: none;
+    }
+
+    .post{
+        max-width: initial;
+    }
 }
 
 /* Code blocks */
