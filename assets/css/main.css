@@ -831,7 +831,7 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 3rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -2046,12 +2046,9 @@ body:not(.post-template) .post-title {
     margin-top: 10px;
 }
 .main-header-content .blog-logo img {
-    width: 13rem;
-    height: auto;
     display: inline;
-    border-radius: 5%;
-    padding: 0;
-    border: 3px solid rgb(255, 255, 255);
+    height: auto;
+    width: 60%;
 }
 .post-template .post-header {
     text-align: center;
