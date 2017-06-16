@@ -830,6 +830,7 @@ body.nav-opened .nav {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
+    display: none;
     margin: 10px 0 10px 0;
     font-size: 3rem;
     letter-spacing: -1px;
