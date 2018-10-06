@@ -6,7 +6,6 @@
 
     {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
 
     {{!-- Mobile Meta --}}
     <meta name="HandheldFriendly" content="True" />
@@ -800,9 +799,9 @@
             <header class="post-header">
                 <h1 class="post-title">{{title}}</h1>
                 <section class="post-meta">
-                    {{#author}}
+                    {{#primary_author}}
                     <p class="author">by <a href="https://twitter.com/chridemi">{{name}}</a> on 
-                    {{/author}}
+                    {{/primary_author}}
                     <a href='{{url}}'><time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="Do MMMM YYYY"}}</time></a></p>
                 </section>
             </header>
