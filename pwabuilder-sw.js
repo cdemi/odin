@@ -16,7 +16,7 @@ self.addEventListener("install", function (event) {
       if (offlineFallbackPage === "ToDo-replace-this-name.html") {
         return cache.add(new Response("TODO: Update the value of the offlineFallbackPage constant in the serviceworker."));
       }
-      
+      cache.add("/content/images/2019/04/offline-min.png");
       return cache.add(offlineFallbackPage);
     })
   );
